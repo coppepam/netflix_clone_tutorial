@@ -1,3 +1,4 @@
+import {Nav} from '@/Nav';
 import {Row} from '@/Row';
 import {Banner} from '@/Banner';
 import {requests} from '@/request'
@@ -6,6 +7,7 @@ import '@/tes/App.css';
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
