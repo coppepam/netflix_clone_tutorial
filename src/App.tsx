@@ -1,10 +1,12 @@
 import {Row} from '@/Row';
+import {Banner} from '@/Banner';
 import {requests} from '@/request'
 import '@/tes/App.css';
 
 function App() {
   return (
     <div className="App">
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.feachNetflixOriginals}
